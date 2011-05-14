@@ -1,0 +1,23 @@
+<!-- Load the Slam - Gmap node -->
+
+<launch>
+
+
+
+<node pkg="gmapping" type="slam_gmapping" args="scan:=scan" name="lasernode">
+<param name="maxUrange" value="200.0"/>
+<param name="maxRange" value="200.0" />
+<param name="xmax" value="200.0"/>
+<param name="ymax" value="200.0"/>
+<param name="xmin" value="-200.0"/>
+<param name="ymin" value="-200.0"/>
+<param name="delta" value="1"/>
+<param name="map_update_interval" value="5"/>
+
+<param name="kernelSize" value="2"/>
+
+</node>
+
+
+</launch>
+

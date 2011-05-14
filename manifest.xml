@@ -1,0 +1,19 @@
+<package>
+  <description brief="sigevo_champ">
+
+     sigevo_champ
+
+  </description>
+  <author>sean</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sigevo_champ</url>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="std_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+

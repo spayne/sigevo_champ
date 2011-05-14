@@ -1,0 +1,33 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b sigevo_champ is ... 
+
+<!-- 
+A ROS node that can be used to bridge between ROS and the car racing software published as part of SIG EVO's annual car racing competitions (http://www.sigevo.org/gecco-2011/competitions.html)
+
+It republishes the CarState data as RosMessages. It converts CarState messages to TF, Odometry and LaserScan Messages.  It receives CarCommand messages. 
+
+It does not republish the focus sensor or the opponent sensors, but I think this node could be a extended pretty easily to support this. 
+
+As it stands, it supports sufficient interfaces to re-implement the SimpleDriver (see the simpledriver) behaviours as a Ros Node, and to use rviz and the other ROS tools to record, playback, map and visualize the sensor data. 
+
+-->
+
+
+\section codeapi Code API
+
+<!--
+Provide links to specific auto-generated API documentation within your
+package that is of particular interest to a reader. Doxygen will
+document pretty much every part of your code, so do your best here to
+point the reader to the actual API.
+
+If your codebase is fairly large or has different sets of APIs, you
+should use the doxygen 'group' tag to keep these APIs together. For
+example, the roscpp documentation has 'libros' group.
+-->
+
+
+*/

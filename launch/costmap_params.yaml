@@ -1,0 +1,24 @@
+obstacle_range: 200.0
+raytrace_range: 200.0
+robot_radius: 2 
+inflation_radius: 2 
+cost_scaling_factor: 1.0
+transform_tolerance: 2.0
+
+
+
+observation_sources: laser_scan_sensor
+laser_scan_sensor: {sensor_frame: base_laser, data_type: LaserScan, topic: /scan, marking: true, clearing: true, obstacle_range: 200.0, raytrace_range: 200.0}
+
+
+global_frame: odom
+robot_base_frame: base_link
+update_frequency: 1.0
+publish_frequency: 1.0
+static_map: false
+rolling_window: false
+width: 3500.0
+height: 3500.0
+origin_x: -1750.0
+origin_y: -1750.0
+resolution: 2.0

@@ -1,0 +1,9 @@
+For the ROS node to be able to determine the position of the vehicle the yaw velocity needs to be published by the championship server.
+
+This patch is just a one line change to championship2011server.cpp to add a variable speedTH (as in speed theta), so that Yaw rate gets published.
+
+To apply the patch
+1. cd into the director above your torcs-1.3.1 install
+(i.e. ls should show torcs-1.3.1 
+2. patch -p0 < champ2011server_yaw.patch
+3. rebuild and reinstall torcs

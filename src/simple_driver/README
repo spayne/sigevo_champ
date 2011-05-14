@@ -1,0 +1,4 @@
+What is this SimpleDriver?
+
+The SIG Evo torcs client code comes with a simple driver implementation.   The files in this directory are a copy of that driver code, but modified to run as a Ros Node. 
+

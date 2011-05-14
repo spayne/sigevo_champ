@@ -1,0 +1,13 @@
+<launch>
+
+  <node pkg="sigevo_champ" name="rosclient" type="champ_client">
+	<!-- track_sensor_angles is a private parameter for this node -->
+	<!-- 19 floats track_sensor_angles is a private parameter for this node -->
+	<!-- values are from -180 to 180 degrees -->
+	<rosparam param="track_sensor_angle_min">-1.57079632679490</rosparam>
+	<rosparam param="track_sensor_angle_max">1.57079632679490</rosparam>
+  </node>
+
+</launch>
+
+
